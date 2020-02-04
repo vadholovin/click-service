@@ -1,0 +1,48 @@
+/* ==========================================================================
+   #S-TOP
+   ========================================================================== */
+
+.s-top {
+  position: relative;
+  padding-top: 405px;
+  padding-bottom: 0;
+
+  @include mq($from: md) {
+    padding-top: 130px;
+  }
+}
+
+.top-text {
+  max-width: 520px;
+}
+
+.s-top .subheading {
+  margin-bottom: 0;
+}
+
+.top-img {
+  position: absolute;
+  top: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 364px;
+
+  @include mq($from: sm) {
+    width: 380px;
+  }
+  @include mq($from: md) {
+    width: 500px;
+    top: -80px;
+    left: auto;
+    right: -30px;
+    transform: none;
+  }
+  @include mq($from: lg) {
+    width: 670px;
+    top: -100px;
+  }
+}
+
+// .top-img img {
+//   max-width: none;
+// }

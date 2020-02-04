@@ -1,0 +1,54 @@
+/* ==========================================================================
+   #ICON-GROUP
+   ========================================================================== */
+
+.icon-group {
+  margin-top: rem(24px);
+  font-size: 0;
+  text-align: center;
+
+  @include mq($from: md) {
+    margin-top: rem(40px);
+  }
+}
+
+.icon-group li {
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  vertical-align: middle;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.icon-wrap {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  font-size: 20px;
+  color: inherit;
+
+  @include mq($from: md) {
+    width: 48px;
+    height: 48px;
+    font-size: 24px;
+  }
+}
+
+.svg-icon {
+  display: inline-block;
+  width: 1.2em;
+  height: 1.2em;
+
+  svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+}

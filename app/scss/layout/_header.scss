@@ -1,0 +1,21 @@
+/* ==========================================================================
+   #HEADER
+   ========================================================================== */
+
+.header {
+  padding-top: 30px;
+  padding-bottom: 15px;
+
+  @include mq($from: md) {
+    padding-top: 40px;
+  }
+}
+
+.header__logo {
+  margin-left: 22px;
+
+  @include mq($until: sm) {
+    width: 167px;
+    margin-left: 10px;
+  }
+}

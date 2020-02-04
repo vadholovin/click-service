@@ -1,0 +1,27 @@
+/* ==========================================================================
+   #S-QUIZ
+   ========================================================================== */
+
+.s-quiz {
+  padding-top: 0;
+  padding-bottom: 0;
+
+  .container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+.quiz-list {
+  color: #fff;
+}
+
+.quiz-list .icon-wrap {
+  border: 3px solid #fff;
+  transition: filter $ease-main;
+
+  &:hover {
+    color: inherit;
+    filter: drop-shadow(0 0 4px rgba(255, 255, 255, .8))
+  }
+}
